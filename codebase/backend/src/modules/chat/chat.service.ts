@@ -134,7 +134,7 @@ export class ChatService {
     // Step 6: Build LLM messages + stream
     // /no_think — Qwen3-specific token to disable chain-of-thought reasoning mode
     const systemPrompt = `/no_think
-You are the AI assistant for ProvenPeak Solutions.
+You are the AI assistant for Omnish Patel.
 Answer the visitor's question directly, clearly, and concisely in 1 to 3 sentences using the facts in the CONTEXT below.
 Do not start with "The CONTEXT says" or "Based on the context". Answer directly.
 
